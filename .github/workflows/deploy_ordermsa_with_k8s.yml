@@ -48,7 +48,7 @@ jobs:
       - name: Login to ECR
         # aws-actions/amazon-ecr-login@v2
         # → Docker가 AWS ECR에 push할 수 있도록 로그인 처리
-        uses: aws-actions/amazon-ecr-login@v2`
+        uses: aws-actions/amazon-ecr-login@v2
 
 
       # 변경된 폴더 감지
