@@ -18,7 +18,11 @@ spec:
     http:
       paths:
       - path: / #모든 url요청을 apigateway-service로 라우팅
+<<<<<<< HEAD
         pathType: Prefix
+=======
+        pathType: Prefix`
+>>>>>>> 9fff4b02dfa373ad95e0bf24cd2037e144cf6dd3
         backend:
           service:
             name: apigateway-service
